@@ -14,10 +14,9 @@ The following diagram illustrates the interaction between the data layer and the
 
 ```mermaid
 flowchart TD
-    A[data.json] -->|fetch() API|
-    B(script.js)-->|Generate DOM Elements|
-    C[index.html]
-    D((User Input\-Search & Filter)) -.->|Triggers re-render| 
+    A["data.json"] -->|"fetch() API"| B("script.js")
+    B -->|"Generate DOM Elements"| C["index.html"]
+    D(("User Input - Search & Filter")) -.->|"Triggers re-render"| B
 ```
 
 ### Initialization Sequence
