@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "MDN Web Docs",
+    "description": "Resources for developers, by developers. The best place to learn HTML, CSS, and JS.",
+    "url": "https://developer.mozilla.org/",
+    "category": "Frontend",
+    "tags": [
+      "html",
+      "css",
+      "javascript"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "React Documentation",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "url": "https://react.dev/",
+    "category": "Library",
+    "tags": [
+      "javascript",
+      "react",
+      "ui"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Node.js Docs",
+    "description": "Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "url": "https://nodejs.org/en/docs/",
+    "category": "Backend",
+    "tags": [
+      "javascript",
+      "node",
+      "server"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "TypeScript Handbook",
+    "description": "TypeScript is JavaScript with syntax for types. A great guide to learn TS.",
+    "url": "https://www.typescriptlang.org/docs/",
+    "category": "Language",
+    "tags": [
+      "typescript",
+      "javascript",
+      "types"
+    ]
+  }
+]

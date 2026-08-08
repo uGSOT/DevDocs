@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Workshop 2 - upGrad School of Technology</title>
+  <meta name="description" content="JavaScript Workshop 2: DOM Manipulation, Event Handling, and Interactive Application Development - upGrad School of Technology Presentation Deck">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="app-viewport">
+    <!-- Top Bar Controls -->
+    <header class="top-header">
+      <div class="brand-section">
+        <div class="brand-logo-mark">u</div>
+        <div class="brand-text-wrapper">
+          <div class="brand-name">upGrad <span>School of Technology</span></div>
+          <div class="brand-sub">JavaScript Workshop 2</div>
+        </div>
+      </div>
+
+      <div class="deck-info">
+        <select id="slideSelect" class="ctrl-btn" title="Jump to Slide"></select>
+        <div id="slideCounter" class="slide-counter">1 / 42</div>
+      </div>
+
+      <div class="header-controls">
+        <button id="btnGrid" class="ctrl-btn" title="Slide Picker (Key: G)">
+          <span>Grid (G)</span>
+        </button>
+        <button id="btnNotes" class="ctrl-btn" title="Speaker Notes (Key: N)">
+          <span>Notes (N)</span>
+        </button>
+        <button id="btnFullscreen" class="ctrl-btn" title="Toggle Fullscreen (Key: F)">
+          <span>Fullscreen (F)</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Stage Canvas -->
+    <main class="stage-area">
+      <!-- Previous Arrow -->
+      <button id="btnPrev" class="nav-arrow nav-prev" title="Previous Slide (Left Arrow)">‹</button>
+      
+      <!-- Slide Frame -->
+      <div id="slideFrame" class="slide-frame"></div>
+
+      <!-- Next Arrow -->
+      <button id="btnNext" class="nav-arrow nav-next" title="Next Slide (Right Arrow or Space)">›</button>
+    </main>
+
+    <!-- Bottom Progress Fill Bar -->
+    <footer class="bottom-progress-bar">
+      <div id="progressFill" class="progress-fill"></div>
+    </footer>
+
+    <!-- Speaker Notes Side Drawer -->
+    <aside id="notesDrawer" class="notes-drawer">
+      <h3>Instructor Notes (upGrad)</h3>
+      <div id="notesContent"></div>
+    </aside>
+
+    <!-- Slide Grid Picker Overlay -->
+    <div id="pickerOverlay" class="picker-overlay">
+      <div class="picker-header">
+        <h2>Workshop 2 Slide Navigator</h2>
+        <button id="btnClosePicker" class="ctrl-btn">✕ Close</button>
+      </div>
+      <div id="pickerGrid" class="picker-grid"></div>
+    </div>
+  </div>
+
+  <script src="slides.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
