@@ -13,17 +13,15 @@ DevDocs Hub is an open-source collection of developer documentation and resource
 
 ## Folder Structure
 ```text
-DevDocs-Hub/
+DevDocs/
 ├── index.html          # Main HTML entry point
 ├── style.css           # Global stylesheet
 ├── script.js           # Core application logic
 ├── data.json           # JSON database for all documentation entries
 ├── .gitignore          # Git ignore rules
-└── documents/          # Project documentation
-    ├── README.md       # Project overview
-    ├── CONTRIBUTING.md # Contribution guidelines
-    ├── ARCHITECTURE.md # Technical architecture
-    ├── KT.md           # Knowledge transfer reference
+├── README.md           # Project overview
+├── CONTRIBUTING.md     # Contribution guidelines
+└── ARCHITECTURE.md     # Technical architecture
 ```
 
 ## How to Run Locally
@@ -37,6 +35,6 @@ The application uses the native `fetch` API, which requires it to be served over
 3. Access the application in your browser (typically at `http://localhost:8000` or `http://localhost:3000`).
 
 ## Contributing
-We welcome contributions to expand our documentation collection. Please read the [Contribution Guide](CONTRIBUTING.md) to learn how to submit your additions.
+We welcome contributions to expand our documentation collection. Please read the [Contribution Guide](https://github.com/uGSOT/Open-Source-Track-Internal-Projects/blob/main/DevDocs/CONTRIBUTING.md) to learn how to submit your additions.
 
-For technical details on the implementation, refer to the [Architecture Guide](ARCHITECTURE.md) and [Knowledge Transfer (KT)](KT.md).
+For technical details on the implementation, refer to the [Architecture Guide](ARCHITECTURE.md).
