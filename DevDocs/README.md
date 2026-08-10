@@ -14,14 +14,15 @@ DevDocs Hub is an open-source collection of developer documentation and resource
 ## Folder Structure
 ```text
 DevDocs/
-├── index.html          # Main HTML entry point
-├── style.css           # Global stylesheet
-├── script.js           # Core application logic
-├── data.json           # JSON database for all documentation entries
+├── src/
+│   ├── index.html      # Main HTML entry point
+│   ├── style.css       # Global stylesheet
+│   ├── script.js       # Core logic and DOM manipulation
+│   └── data.json       # Content data store
 ├── .gitignore          # Git ignore rules
-├── README.md           # Project overview
+├── README.md           # Project documentation
 ├── CONTRIBUTING.md     # Contribution guidelines
-└── ARCHITECTURE.md     # Technical architecture
+└── ARCHITECTURE.md     # Architecture documentation
 ```
 
 ## How to Run Locally
