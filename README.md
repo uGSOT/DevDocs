@@ -1,4 +1,4 @@
-# DevDocs Hub
+# DevDocs
 
 DevDocs Hub is an open-source collection of developer documentation and resources. It provides a searchable and filterable interface to quickly access documentation for various tools, languages, and frameworks.
 
