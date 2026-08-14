@@ -36,6 +36,6 @@ The application uses the native `fetch` API, which requires it to be served over
 3. Access the application in your browser (typically at `http://localhost:8000` or `http://localhost:3000`).
 
 ## Contributing
-We welcome contributions to expand our documentation collection. Please read the [Contribution Guide](https://github.com/uGSOT/Open-Source-Track-Internal-Projects/blob/main/DevDocs/CONTRIBUTING.md) to learn how to submit your additions.
+We welcome contributions to expand our documentation collection. Please read the [Contribution Guide](https://github.com/uGSOT/DevDocs/blob/main/CONTRIBUTING.md) to learn how to submit your additions.
 
 For technical details on the implementation, refer to the [Architecture Guide](ARCHITECTURE.md).

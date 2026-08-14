@@ -7,12 +7,12 @@ Follow this standard workflow to contribute to the project. It ensures your main
 ### 1. Fork, Clone, and Add Upstream
 1. Fork the repo on GitHub, then clone your fork locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Open-Source-Track-Internal-Projects.git
-   cd Open-Source-Track-Internal-Projects/DevDocs
+   git clone https://github.com/YOUR-USERNAME/DevDocs.git
+   cd DevDocs
    ```
 2. Add the original repository as an upstream remote to keep your fork updated:
    ```bash
-   git remote add upstream https://github.com/uGSOT/Open-Source-Track-Internal-Projects.git
+   git remote add upstream https://github.com/uGSOT/DevDocs.git
    ```
 
 ### 2. Create a Feature Branch
