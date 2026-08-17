@@ -47,4 +47,17 @@
       "types"
     ]
   }
+  ,
+ {
+  "id": 5,
+  "title": "React.js Cheat Sheet",
+  "description": "A beginner-friendly cheat sheet covering React components, useState, and useEffect.",
+  "url": "../documents/frontend/react-cheatsheet.md",
+  "category": "Frontend",
+  "tags": [
+    "react",
+    "javascript",
+    "hooks"
+  ]
+}
 ]
