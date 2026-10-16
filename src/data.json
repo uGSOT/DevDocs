@@ -46,8 +46,7 @@
       "javascript",
       "types"
     ]
-  }
-
+  },
   {
     "id": 5,
     "title": "Vue.js Getting Started Guide",
@@ -58,6 +57,18 @@
       "vue",
       "javascript",
       "frontend"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Python Documentation",
+    "description": "Official Python documentation with tutorials, language references, and standard library guides.",
+    "url": "https://docs.python.org/3/",
+    "category": "Language",
+    "tags": [
+      "python",
+      "programming",
+      "backend"
     ]
   }
 
