@@ -62,3 +62,8 @@
   }
 
 ]
+
+json {
+  "title": "Tailwind CSS Basics",
+  "path": "documents/css/tailwind-basics.md"
+}
