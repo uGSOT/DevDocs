@@ -46,19 +46,31 @@
       "javascript",
       "types"
     ]
-  }
-
+  },
   {
     "id": 5,
     "title": "Vue.js Getting Started Guide",
     "description": "Learn Vue.js components, reactive state, conditional rendering, and lists with simple examples.",
-    "url": "documents/frontend/vue-getting-started.md",
+    "url": "https://vuejs.org/guide/quick-start.html",
     "category": "Frontend",
     "tags": [
       "vue",
       "javascript",
       "frontend"
     ]
+  },
+  {
+    "id": 6,
+    "title": "JavaScript ES6+ Concepts Guide",
+    "description": "Learn modern JavaScript with examples of variables, arrow functions, destructuring, array methods, promises, async/await, and modules.",
+    "url": "../documents/frontend/javascript-es6-guide.md",
+    "category": "Frontend",
+    "tags": [
+      "javascript",
+      "es6",
+      "es2015",
+      "frontend",
+      "async"
+    ]
   }
-
 ]
