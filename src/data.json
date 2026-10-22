@@ -46,7 +46,7 @@
       "javascript",
       "types"
     ]
-  }
+  },
 
   {
     "id": 5,
@@ -57,6 +57,19 @@
     "tags": [
       "vue",
       "javascript",
+      "frontend"
+    ]
+  },
+
+  {
+    "id": 6,
+    "title": "Bootstrap Getting Started Guide",
+    "description": "Learn Bootstrap components, responsive design, and grid system with simple examples.",
+    "url": "documents/frontend/bootstrap-getting-started.md",
+    "category": "Frontend",
+    "tags": [
+      "bootstrap",
+      "css",
       "frontend"
     ]
   }
