@@ -46,7 +46,7 @@
       "javascript",
       "types"
     ]
-  }
+  },
 
   {
     "id": 5,
@@ -58,6 +58,18 @@
       "vue",
       "javascript",
       "frontend"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "MongoDB Getting Started Guide",
+    "description": "Learn MongoDB basics, including data modeling, querying, and indexing.",
+    "url": "https://www.mongodb.com/docs/manual/crud/",
+    "category": "database",
+    "tags": [
+      "mongodb",
+      "database",
+      "backend"
     ]
   }
 
